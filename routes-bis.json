@@ -1,0 +1,58 @@
+{
+  "/ar/":{
+      "channelCode": "GT",
+      "localeCode": "ar",
+      "type": "him",
+      "resortCode": "DEU50122",
+      "domain": "tulip-inn-muenchen-messe.goldentulip.com",
+      "seoUri": "/ar/",
+      "realUri": "/him/ar/overview",
+      "actionType": "Rewrite",
+      "key": "overview"
+    },
+  "/de-de/":{
+      "localeCode": "de-de",
+      "channelCode": "GT",
+      "actionType": "Rewrite",
+      "key": "overview",
+      "type": "him",
+      "seoUri": "/de-de/",
+      "realUri": "/him/de-de/overview"
+    },
+  "/id/experiences/{id}":{
+      "localeCode": "id",
+      "channelCode": "GT",
+      "actionType": "Rewrite",
+      "key": "experiences_master_details",
+      "type": "him",
+      "seoUri": "/id/experiences/{id}",
+      "realUri": "/him/id/master-experience-{id}"
+    },
+  "/nl-nl/hotels-al-bahah": {
+      "localeCode": "nl-nl",
+      "channelCode": "GT",
+      "actionType": "Rewrite",
+      "key": "189",
+      "type": "destination",
+      "seoUri": "/nl-nl/hotels-al-bahah",
+      "realUri": "/city/189"
+    },
+  "/pt-br/categoria/cafe-da-manha": {
+      "localeCode": "pt-br",
+      "channelCode": "GT",
+      "actionType": "Rewrite",
+      "key": "26",
+      "type": "thematic_category",
+      "seoUri": "/pt-br/categoria/cafe-da-manha",
+      "realUri": "/category/26"
+    },
+  "/es-es/categoria/": {
+      "localeCode": "es-es",
+      "channelCode": "GT",
+      "actionType": "Rewrite",
+      "key": "26",
+      "type": "thematic_category",
+      "seoUri": "/es-es/categoria/",
+      "realUri": "/category/26"
+    }
+}

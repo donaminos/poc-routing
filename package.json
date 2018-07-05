@@ -1,0 +1,19 @@
+{
+  "name": "next-brand-him",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "next": "^6.1.1",
+    "next-routes": "^1.4.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "wildcard-subdomains": "^1.1.0"
+  }
+}
